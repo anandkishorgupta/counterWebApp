@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/19ee356dde.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- wrapper -->
+    <div class=" w-[100vw] h-[100vh]  flex justify-center items-center flex-col bg-[#344151] gap-5">
+        <div class="text-white">
+            increment and decrement
+        </div>
+        <!-- secondary wrapper -->
+        <div class="flex bg-white text-[#344151] rounded-sm text-[25px]  px-5 py-3 gap-12">
+            <!-- negative button -->
+            <button class="  pr-5 border-r-2 border-[#bfbfbf]" onclick="decrement()">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+            <div class="font-bold " id="counter">
+
+
+                0
+
+            </div>
+            <!-- positive button -->
+            <button class=" pl-5 border-l-2 border-[#bfbfbf]"  onclick="increment() ">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
